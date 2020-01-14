@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'Imagem.dart';
+import 'Widget/Imagem.dart';
 
 class Home extends StatefulWidget {
   @override
@@ -10,7 +10,7 @@ class Home extends StatefulWidget {
 class _HomeState extends State<Home> {
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
+    return Scaffold(  
       body: Column(
         children: <Widget>[
           SizedBox(height: 50,),
